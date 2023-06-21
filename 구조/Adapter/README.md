@@ -17,7 +17,7 @@ classDiagram
 ```
 
 이때 Bear 클래스가 Animal 클래스를 상속받으려고 하는데 코드를 변경할 수 없는 상황이라면  
-Bear 클래스 대신에 BearAdapter가 Animal 클래스를 상속받고 Bear 클래스의 객체를 BearAdapter의 필드로 들어가게 할 수 있다.
+Bear 클래스 대신에 BearAdapter가 Animal 클래스를 상속받고 Bear 클래스의 객체를 BearAdapter의 필드로 들어가게 할 수 있습니다.
 
 ```mermaid
 classDiagram
@@ -33,7 +33,7 @@ classDiagram
     Bear --o BearAdapter
 ```
 
-이런 패턴을 어댑터 패턴이라고 한다.
+이런 패턴을 어댑터 패턴이라고 합니다.
 
 클래스의 코드를 변경하기 어려운 경우는 다음과 같습니다.
 

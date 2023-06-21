@@ -6,7 +6,7 @@ export default class EditableDisplayArticle extends DisplayArticleTemplate {
     super(article);
   }
 
-  // SimpleDisplayArticle과 구현하는 내용이 다르다.
+  // SimpleDisplayArticle과 구현하는 내용이 다릅니다.
   protected titleHtml(): string {
     return `<div>
         <span>제목</span>

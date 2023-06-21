@@ -38,4 +38,4 @@ classDiagram
     Item "*" --o Array
 ```
 
-이때 Array와 ArrayIterator 대신 다른 어그레이터를 위한 클래스가 들어올 수도 있다.
+이때 Array와 ArrayIterator 대신 다른 어그레이터를 위한 클래스가 들어올 수도 있습니다.

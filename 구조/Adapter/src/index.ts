@@ -12,7 +12,7 @@ list.push(new Cat("cat1"));
 /* 
 const bear = new Bear();
 bear.name = "bear1";
-list.push(bear); // Animal 타입과 호환되지 않는다.
+list.push(bear); // Animal 타입과 호환되지 않습니다.
  */
 
 list.push(new BearAdapter("bear1"));
