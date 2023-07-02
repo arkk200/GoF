@@ -7,7 +7,7 @@ Decorator 패턴은 기능을 장식처럼 계속 추가할 수 있는 패턴입
 classDiagram
 direction RL
     class String {
-        #data: string[]
+        -data: string[]
         add(str: string)
     }
     class Item {
